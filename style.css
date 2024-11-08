@@ -39,11 +39,11 @@ body{
 .card{
     font-family: Dense, Arial, sans-serif;
     font-size: 2rem;
-    line-height: 3rem;
-    height: 450px;
-    width: 360px;
-    margin: 25px;
-    padding: 50px;
+    line-height: 2.5rem;
+    height: 360px;
+    width: 300px;
+    margin: 20px;
+    padding: 40px;
     color: white;
     transition: all 0.2s ease;
     
@@ -58,17 +58,13 @@ body{
     color: #8ab5c5;
 }
 
-.images{
-    margin: 25px;
-    
-}
-
-.images > img{
-    height: 950px;
+#side-image{
+    margin: 20px;
+    height: 720px;
     width: auto;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1700px) {
     .cards{
         grid-template-columns: 1fr;
     }
@@ -78,22 +74,21 @@ body{
         height: 100%;
     }
 
-    .images > img{
-        width: 360px;
+    #side-image{
+        width: 380px;
         height: auto;
     }
 }
 
 @media screen and (max-width: 800px) {
     .card{        
-        height: 300px;
-        width: 240px;
+        height: 270px;
+        width: 225px;
         font-size: 1.5rem;
-        line-height: 2.25rem;
-        padding: 40px;
+        line-height: 2rem;
     }
-    .images > img{
-        width: 240px;
+    #side-image{
+        width: 305px;
         height: auto;
     }
 }
