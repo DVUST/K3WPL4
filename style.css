@@ -37,7 +37,7 @@ body{
     font-size: 2.5rem;
     line-height: 3rem;
     height: 450px;
-    width: 350px;
+    width: 360px;
     border: 2px solid white;
     margin: 25px;
     padding: 50px;
@@ -75,7 +75,17 @@ body{
     }
 
     .images > img{
-        width: 350px;
+        width: 360px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card{        
+        height: 300px;
+        width: 240px;
+        font-size: 1.74rem;
+        line-height: 2.25rem;
+        padding: 40px;
     }
 }
