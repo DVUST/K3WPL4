@@ -20,6 +20,10 @@ body{
     background-color: #8ab5c5;
 }
 
+.border{
+    border: 2px solid white;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -34,11 +38,10 @@ body{
 
 .card{
     font-family: Dense, Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3rem;
     height: 450px;
     width: 360px;
-    border: 2px solid white;
     margin: 25px;
     padding: 50px;
     color: white;
@@ -85,7 +88,7 @@ body{
     .card{        
         height: 300px;
         width: 240px;
-        font-size: 1.74rem;
+        font-size: 1.5rem;
         line-height: 2.25rem;
         padding: 40px;
     }
