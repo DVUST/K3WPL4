@@ -88,4 +88,8 @@ body{
         line-height: 2.25rem;
         padding: 40px;
     }
+    .images > img{
+        width: 240px;
+        height: auto;
+    }
 }
