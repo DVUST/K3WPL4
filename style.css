@@ -1,0 +1,81 @@
+/* @font-face {
+    font-family: Dense-Regular;
+    src: url("Dense-Regular.otf");
+} */
+
+@font-face {
+    font-family: 'Dense';
+    src: local('Dense Thin'), local('Dense-Thin'),
+        url('Dense-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #8ab5c5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card{
+    font-family: Dense, Arial, sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    height: 450px;
+    width: 350px;
+    border: 2px solid white;
+    margin: 25px;
+    padding: 50px;
+    color: white;
+    transition: all 0.2s ease;
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.white{
+    background-color: white;
+    color: #8ab5c5;
+}
+
+.images{
+    margin: 25px;
+    
+}
+
+.images > img{
+    height: 950px;
+    width: auto;
+}
+
+@media screen and (max-width: 1800px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .images > img{
+        width: 350px;
+        height: auto;
+    }
+}
